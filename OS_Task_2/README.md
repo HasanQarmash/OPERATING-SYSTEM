@@ -7,20 +7,20 @@ This project provides a comprehensive simulation of various CPU scheduling algor
 The simulator includes the following algorithms:
 
 1.  **First-Come, First-Served (FCFS)**: Processes are executed in the order they arrive.
-2.  <img width="1240" height="189" alt="image" src="https://github.com/user-attachments/assets/7211f338-91fd-4b72-860f-8c2f50c080b0" />
+          <img width="1240" height="189" alt="image" src="https://github.com/user-attachments/assets/7211f338-91fd-4b72-860f-8c2f50c080b0" />
 
-3.  **Shortest Job First (SJF)**: A non-preemptive algorithm where the process with the smallest burst time is executed next.
-4.  <img width="1246" height="560" alt="image" src="https://github.com/user-attachments/assets/1186d93a-5e5b-457f-a003-972ab26a061b" />
+2.  **Shortest Job First (SJF)**: A non-preemptive algorithm where the process with the smallest burst time is executed next.
+          <img width="1246" height="560" alt="image" src="https://github.com/user-attachments/assets/1186d93a-5e5b-457f-a003-972ab26a061b" />
 
-5.  **Shortest Remaining Time First (SRTF)**: The preemptive version of SJF. The process with the smallest remaining time to completion is executed.
-6.  <img width="1147" height="740" alt="image" src="https://github.com/user-attachments/assets/097af1db-429e-4e3b-bf3d-7ae1b5561e28" />
+3.  **Shortest Remaining Time First (SRTF)**: The preemptive version of SJF. The process with the smallest remaining time to completion is executed.
+          <img width="1147" height="740" alt="image" src="https://github.com/user-attachments/assets/097af1db-429e-4e3b-bf3d-7ae1b5561e28" />
 
-7.  **Round Robin (RR)**: A preemptive algorithm where each process is given a fixed time slice (quantum) to execute.
-8.  <img width="1226" height="364" alt="image" src="https://github.com/user-attachments/assets/f3921a2c-79a4-4e47-b2dc-8ee29d5e4709" />
+4.  **Round Robin (RR)**: A preemptive algorithm where each process is given a fixed time slice (quantum) to execute.
+          <img width="1226" height="364" alt="image" src="https://github.com/user-attachments/assets/f3921a2c-79a4-4e47-b2dc-8ee29d5e4709" />
 
-9.  **Preemptive Priority Scheduling**: Processes are assigned priorities, and the one with the highest priority gets the CPU. Can be preempted by higher-priority processes.  <img width="1150" height="819" alt="image" src="https://github.com/user-attachments/assets/d8affefa-2b95-4be0-9c05-9d55bd4e0248" />
+5.  **Preemptive Priority Scheduling**: Processes are assigned priorities, and the one with the highest priority gets the CPU. Can be preempted by higher-priority processes.  <img width="1150" height="819" alt="image" src="https://github.com/user-attachments/assets/d8affefa-2b95-4be0-9c05-9d55bd4e0248" />
 
-10.  **Non-preemptive Priority Scheduling**: Similar to preemptive priority, but once a process starts, it runs to completion.
+6.  **Non-preemptive Priority Scheduling**: Similar to preemptive priority, but once a process starts, it runs to completion.
         <img width="1197" height="271" alt="image" src="https://github.com/user-attachments/assets/3995ee6f-d254-4b74-878f-dbe33b68ef97" />
 
 
