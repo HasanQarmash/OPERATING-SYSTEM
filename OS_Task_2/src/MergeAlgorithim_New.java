@@ -43,7 +43,7 @@ public class MergeAlgorithim_New {
     			
     		  processes.remove(proc);
     		  proc.arrivalTime = currentTime + proc.comesBackAfter;
-    		  proc.turnaroundTime=currentTime
+    		  proc.turnaroundTime=currentTime;
     		  proc.remainingTime = proc.burstTime;
     		  proc.priority= proc.originalPriority;
     		  processes.add(proc);
